@@ -16,35 +16,20 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PaymentSdk"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
-  收银台sdk
+  收银台sdk发布了
                    DESC
-
-  spec.homepage     = "https://github.com/englishsister/PaymentSdk.git"
+  spec.homepage     = "https://github.com/englishsister/PaymentSdk"
   spec.license      = "MIT"
   spec.author             = { "haoyingjie" => "405275657@qq.com" }
   spec.platform     = :ios, "10.0"
   spec.ios.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/englishsister/PaymentSdk.git", :tag => spec.version}
-  #spec.source       = { :path => '.'}
-
-
   spec.source_files  = "PaymentSdk/lakalaPaySDK.framework/Headers/*.{h,m}"
-  
-  #spec.exclude_files = "Classes/Exclude"
-  # spec.public_header_files = "Classes/**/*.h"
-  # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-  spec.vendored_libraries = "PaySdk/**/*.a"
   spec.frameworks = "CFNetwork", "SystemConfiguration"
-  
-
   spec.library   = "z"
-  #spec.libraries = "z"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
