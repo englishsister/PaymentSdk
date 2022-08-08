@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LKLPaymentSdk"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
   收银台sdk发布了
