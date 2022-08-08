@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PaymentSdk"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
   收银台sdk
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   #spec.source       = { :path => '.'}
 
 
-  spec.source_files  = "PaymentSdk/lakalaPaySDK.framework/*.{h,m}"
+  spec.source_files  = "PaymentSdk/lakalaPaySDK.framework/Headers/*.{h,m}"
   
   #spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
