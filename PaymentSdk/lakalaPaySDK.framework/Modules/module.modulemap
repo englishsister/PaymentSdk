@@ -1,0 +1,6 @@
+framework module lakalaPaySDK {
+  umbrella header "lakalaPaySDK.h"
+
+  export *
+  module * { export * }
+}
