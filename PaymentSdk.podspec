@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PaymentSdk"
-  spec.version      = "1.0.2"
+  spec.name         = "LKLPaymentSdk"
+  spec.version      = "1.0.3"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
   收银台sdk发布了
