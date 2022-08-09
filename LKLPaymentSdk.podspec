@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LKLPaymentSdk"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
   收银台sdk发布了
@@ -24,8 +24,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/englishsister/PaymentSdk"
   spec.license      = "MIT"
   spec.author             = { "haoyingjie" => "405275657@qq.com" }
-  spec.platform     = :ios, "10.0"
-  spec.ios.deployment_target = "10.0"
+  spec.platform     = :ios, "9.0"
+  spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/englishsister/PaymentSdk.git", :tag => spec.version}
   spec.source_files  = "PaymentSdk/lakalaPaySDK.framework/Headers/*.{h,m}"
   spec.frameworks = "CFNetwork", "SystemConfiguration"
