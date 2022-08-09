@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LKLPaymentSdk"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "收银台sdk"
   spec.description  = <<-DESC
   收银台sdk发布了
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = "CFNetwork", "SystemConfiguration"
   spec.library   = "z"
   spec.vendored_frameworks = 'PaymentSdk/lakalaPaySDK.framework'
-
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
