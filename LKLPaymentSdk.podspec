@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.frameworks = "CFNetwork", "SystemConfiguration"
   spec.library   = "z"
   spec.vendored_frameworks = 'PaymentSdk/LKLPaymentSdk.framework'
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
