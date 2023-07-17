@@ -14,11 +14,7 @@
 
 ##使用方法
 在需要调用支付控件接口的代码文件内引用头文件 
-/*
-1.0.7及之前，使用<lakalaPaySDK/UPPaymentControl.h>
-1.0.9之后，使用<LKLPaymentSdk/UPPaymentControl.h>
-*/
-import <lakalaPaySDK/UPPaymentControl.h>
+import <LKLPaymentSdk/UPPaymentControl.h>
 注意：（注意：如果工程的 compile source as 选项的值不是 Objective–C++，则引用此头文件的文件类型都要改为.mm）
 
 
