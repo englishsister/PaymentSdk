@@ -32,6 +32,8 @@ Pod::Spec.new do |spec|
   spec.frameworks = "CFNetwork", "SystemConfiguration"
   spec.library   = "z"
   spec.vendored_frameworks = 'PaymentSdk/LKLPaymentSdk.xcframework'
+  
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
